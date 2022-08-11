@@ -1,14 +1,232 @@
 <!DOCTYPE html>
 <html>
-<head>
 
-<link rel="stylesheet" href="css/style.css">
+<head>
+    <title>Club Lucky Home</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
+    <section>
+        <div class="topnav flex-container">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <a class="navbar-brand" href="#">Navbar</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse"
+                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#"><img src="images/ClubLuckyCL.svg" width="100px" alt="logo">
+                                Home <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Link</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                Dropdown
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link disabled" href="#">Disabled</a>
+                        </li>
+                    </ul>
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <section>
+        <div class="topnav flex-container">
 
+            <!-- Centered link -->
+            <div class="topnav-centered">
+                <a href="#home" class="active"><img src="images/ClubLuckyCL.svg" width="100px" alt="logo">Home</a>
+            </div>
+
+            <!-- Left-aligned links (default) -->
+            <a href="#news">Menu</a>
+            <a href="#contact">Reservation</a>
+
+            <!-- Right-aligned links -->
+            <div class="topnav-right">
+                <a href="#search">About Us</a>
+                <a href="#about">Contact Us</a>
+            </div>
+
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="jumbotron jumbo">
+                <h1 class="display-4">Welcome to Club Lucky Home to Authentic Italian Cuisine</h1>
+                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra
+                    attention
+                    to featured content or information.</p>
+                <hr class="my-4">
+                <p>It uses utility classes for typography and spacing to space content out within the larger container.
+                </p>
+                <p class="lead orderButton">
+                    <a class="btn btn-primary btn-lg orderButton" href="#" role="button">Order Online</a>
+                </p>
+                <!--<p style="background-image: src='images/homepageJumbotron: .png'"></p>-->
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container textUnder">
+        <h1>Good Food & Fun. Traditional Italian</h1>
+        <h2>Open Daily @ 5pm</h2>
+        </div>
+    </section>
+    <section></section>
+    <section>
+        <div class="butQuote container">
+            <button type="button" class="btn btn-danger flex-column resButton">Reservations</button>
+            <h2>Once the site of a local dance hall our dining room is still reverberating with the easy but elegant feel of a 1940's supper club. The food is as comfortable as the atmosphere, f is still reverberating with the easy but elegant feel of a 1940's supper club. The food is as comfortable as the atmosphere, featuring all your traditional Italian favorites served up family style.  </h2>
+        </div>
+    </section>
+    <section>
+        <div class="restInfo container">
+            <div class="row">
+              <div class="col-sm">
+                <h1>Location</h1>
+                <h2>1520 N Damen Ave</h2>
+                <h2>Chicago IL, 60622</h2>
+              </div>
+              <div class="col-sm">
+                <h1>Hours</h1>
+                <h2>Dining Room</h2>
+                <h2>Mon-Thurs 5pm- 9:30pm</h2>
+                <h2>Fri-Sat 4pm- 10pm</h2>
+                <h2>Sun 3pm-9pm</h2>
+                <br>
+                <h2>Cocktail Lounge</h2>
+                <h2>Mon-Thurs 5pm- 12am</h2>
+                <h2>Fri-Sat 4pm- 1am</h2>
+                <h2>Sun 3pm- 11:30pm</h2>
+              </div>
+              <div class="col-sm">
+                <h1>Contact</h1>
+                <h2>office@clubluckychicago.com</h2>
+                <h2>77.227.2300</h2>
+              </div>
+            </div>
+          </div>
+    </section>
+    <section>
+        <div class="newsletter container">
+            <h1>Be the first to know about our specials and events!</h1>
+            <h2>Subscribe to our newsletter</h2>
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="E-mail Address" aria-label="E-mail Address" aria-describedby="basic-addon2">
+                <div class="input-group-append">
+                  <button class="btn btn-outline-secondary subButton" type="button">Subscribe</button>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section>
+        <div class="container card-group reviewQuotes">
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">User Name</div>
+                <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">User Name</div>
+                <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+            <div class="card text-white bg-dark mb-3" style="max-width: 18rem;">
+                <div class="card-header">User Name</div>
+                <div class="card-body">
+                    <h5 class="card-title">Dark card title</h5>
+                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
+                        card's content.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
-<footer></footer>
+<footer class="bg-dark text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Social media -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-facebook-f"></i
+        ></a>
+  
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-twitter"></i
+        ></a>
+  
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-google"></i
+        ></a>
+  
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-instagram"></i
+        ></a>
+  
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-linkedin-in"></i
+        ></a>
+  
+        <!-- Github -->
+        <a class="btn btn-outline-light btn-floating m-1" href="#!" role="button"
+          ><i class="fab fa-github"></i
+        ></a>
+      </section>
+      <!-- Section: Social media -->
+    </div>
+    <!-- Grid container -->
+  
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2020 Copyright:
+      <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
 <script></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
 </html>
