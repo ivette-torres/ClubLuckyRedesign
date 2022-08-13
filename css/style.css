@@ -15,6 +15,7 @@ html {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
+    
   }
   
   /* Change the color of links on hover */
@@ -32,17 +33,19 @@ html {
   /* Centered section inside the top navigation */
   .topnav-centered a {
     float: none;
-    position: absolute;
+  
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
   }
   
-  /* Right-aligned section inside the top navigation */
-  .topnav-right {
-    float: right;
+
+  .headWithLogo {
+    padding-top: 50px;
+    display: flex;
+    align-items: space-evenly;
+    justify-content: space-around;
   }
-  
   /* Responsive navigation menu - display links on top of each other instead of next to each other (for mobile devices) */
   @media screen and (max-width: 600px) {
     .topnav a, .topnav-right {
@@ -73,6 +76,9 @@ padding: 50px;}
   .textUnder{
     text-align: center;
   }
+  .textUnder h1 {
+    font-family: 'Abril Fatface', cursive;
+  }
   .butQuote{
     text-align: center;
     flex: center;
@@ -97,3 +103,9 @@ padding: 50px;}
 .orderButton {
   justify-self: center;
 }
+
+.jumbo h1 {
+  font-family: 'Abril Fatface', cursive;
+}
+
+
