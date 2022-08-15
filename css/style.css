@@ -102,6 +102,30 @@ padding: 50px;}
 
 .jumbo h1 {
   font-family: 'Abril Fatface', cursive;
+  opacity: 1;
+
 }
 
+.jumbo {
+  background-image: url('../images/homepageJumbotron.png') !important;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
 
+.lead {
+  display: flex;
+  justify-content: center;
+}
+.orderButton {
+  justify-self: center;
+  align-self: center;
+}
+
+.flex-item {
+  border: rgba(217, 217, 217, .65);
+  background-color: rgba(217, 217, 217, .65);
+  border-radius: 20px;
+  
+}
