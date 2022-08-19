@@ -80,6 +80,7 @@ width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    border-radius: 20px;
   }
 
   .topnav a,
@@ -90,6 +91,7 @@ width: 100%;
     align-items: center;
     box-shadow: 1px 10px 10px grey;
     color: black;
+    border-radius: 20px;
   }
 
   .topnav-centered a {
@@ -267,10 +269,10 @@ h5 {
 }
 .foot {
   display: flex;
-  height:400px;
+  height: auto;
   flex-flow: column wrap;
-  background-color: green;
-  align-content: space-between;
+  align-content: center;
+  align-items: center;
 }
 
 .foot > div {
@@ -281,3 +283,4 @@ h5 {
   line-height: 75px;
   font-size: 30px;
 }
+
